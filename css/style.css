@@ -1,3 +1,15 @@
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+
+body {
+    background-image: url(https://images.hdqwalls.com/download/bmw-m8-competition-coupe-2019-o8-1600x1200.jpg);
+}
+
+
 #header {
     width: 100%;
     display: flex;
@@ -6,23 +18,25 @@
     background-color: #0000ff;
     min-height: 75px;
     position: fixed;
+    top: 0;
 
 }
 ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style: none;
 
 }
 
 #nav-bar {
-    justify-content: space-between;
+    justify-content: space-evenly;
+    width: 100;
 
 }
 
 li {
     justify-content: space-between;
-    margin: 0 auto;
+   margin-left: 18.1em;
 
 }
 
@@ -31,13 +45,40 @@ li {
    height: 200px;
 }
 
-#about-us {
-  display: flex;
-  position: fixed;
-  top:250px;
-  margin-left: 450px;
-  margin-right: 450px;
-  justify-content: center;
-  align-items: center;
+#about-us  > iframe{
+    max-width: 550px;
+    width: 100%;
+    
 
+
+}
+
+#about-us {
+    display: flex;
+    justify-content: center;
+    margin-top: 350px;
+}
+  
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#sign-up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+margin-top: 50px;
+}
+
+#store {
+    background-image: url(https://i.pinimg.com/originals/f7/0e/d4/f70ed42e439851640e184cef4d7a209a.jpg);
+    height: 900px;
+    margin-top: 100px;
+
+}
+#contact-us {
+    background-image: url(https://cdn.pixabay.com/photo/2015/10/30/15/07/contact-us-1014232__340.png);
+    height: 900px;
 }
