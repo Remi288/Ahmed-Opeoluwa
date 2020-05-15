@@ -27,5 +27,17 @@ li {
 }
 
 #header-img {
-   
+   width: 150px;
+   height: 200px;
+}
+
+#about-us {
+  display: flex;
+  position: fixed;
+  top:250px;
+  margin-left: 450px;
+  margin-right: 450px;
+  justify-content: center;
+  align-items: center;
+
 }

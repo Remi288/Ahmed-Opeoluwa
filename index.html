@@ -13,12 +13,12 @@
     <script  src="js/index.js"></script>
 <header id="header">
 
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQq8_aDYcCC7HOBDYBmm7tkDom0SxrIJBq5B3XMm6CtAJ1uKovd&usqp=CAU" alt="bmw logo" id="header-img">
+  <img src="bmwlogo.jpg" alt="bmw logo" id="header-img">
 <div id="page-cover">
   <nav id="nav-bar">
     <ul>
       <li>
-        <a href="#About us" class="nav-link"> About us</a>
+        <a href="#about-us" class="nav-link"> About us</a>
       </li>
       <li>
         <a href="#Contact us" class="nav-link">Contact Us</a>
@@ -31,7 +31,15 @@
   </nav>
   </div>
 </header>
-
-
-  </body>
+<section id="about-us">
+<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/DnU8Pa_om9M"
+frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+ allowfullscreen></iframe>
+</section>
+<form id="form" action="https://www.freecodecamp.com/email-submit">
+  <input type="email" name="email" placeholder="enter your email" id="email"
+  pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required>
+<input type="submit"  id="submit">
+</form>
+</body>
 </html>
